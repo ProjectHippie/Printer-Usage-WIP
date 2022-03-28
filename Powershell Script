@@ -1,0 +1,1 @@
+Get-WinEvent -ProviderName Microsoft-Windows-PrintService | Where-Object { $_.Id -eq 307 }
